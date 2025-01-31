@@ -31,3 +31,10 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
+
+
+document.querySelector('form').addEventListener('submit', function(e) {
+    e.preventDefault();  // Prevent form from reloading the page
+
+    alert('Thank you for your message! I will get back to you soon.');
+});
