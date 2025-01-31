@@ -154,5 +154,33 @@ body {
     transform: scale(1.1);
 }
 
+/* About Me Page Styles */
+.about-me {
+    padding: 7rem;
+    text-align: center;
+}
 
+.about-me h1 {
+    font-size: 2rem;
+    color: var(--text-color);
+}
+
+.about-me p {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
 

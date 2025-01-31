@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Check if dark mode was enabled before
     if (localStorage.getItem("dark-mode") === "enabled") {
         body.classList.add("dark-mode");
-        toggleButton.textContent = "☀️ Light Mode";
+        toggleButton.textContent = "☀️";
     }
 
     toggleButton.addEventListener("click", function () {
@@ -24,10 +24,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (body.classList.contains("dark-mode")) {
             localStorage.setItem("dark-mode", "enabled");
-            toggleButton.textContent = "☀️ Light Mode";
+            toggleButton.textContent = "☀️";
         } else {
             localStorage.setItem("dark-mode", "disabled");
-            toggleButton.textContent = "🌙 Dark Mode";
+            toggleButton.textContent = "🌙";
         }
     });
 });
