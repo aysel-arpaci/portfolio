@@ -48,7 +48,7 @@ nav ul li a:hover {
 /* Main content */
 main {
     text-align: center;
-    padding: 50px;
+    padding: 100px;
 }
 
 /* Footer */
@@ -204,7 +204,7 @@ html {
 }
 
 .project-card {
-    background-color: #fff;
+    background-color: #800080;
     padding: 1rem;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
@@ -231,12 +231,12 @@ html {
 
 .project-card p {
     font-size: 1rem;
-    color: #555;
+    color: #ffffff;
     margin-bottom: 1rem;
 }
 
 .project-card .button-link {
-    background-color: #381f7f;
+    background-color: #c988b0;
     color: #fff;
     padding: 0.5rem 1rem;
     border-radius: 5px;
